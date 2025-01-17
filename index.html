@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -40,57 +47,75 @@
       </div>
       <div class="sticky top-0 z-10">
         <div class="flex justify-center items-center gap-x-40 bg-gray-300 p-8">
+          <div>
+            <img src="/images/i1.svg" height="200" width="300" alt="" />
+          </div>
+          <div class="">
+            <ul class="flex cursor-pointer gap-x-6">
+              <li><a class="font-semibold text-xl" href="">STUDY</a></li>
+              <li><a class="font-semibold text-xl" href="">RESEARCH</a></li>
+              <li><a class="font-semibold text-xl" href="">INNOVATIVE</a></li>
+              <li><a class="font-semibold text-xl" href="">LIFE</a></li>
+              <li><a class="font-semibold text-xl" href="">EXPLORE</a></li>
+            </ul>
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-center gap-5">
+              <h1 class="pr-3">Search</h1>
+              <svg
+                class="w-[8%] flex items-center justify-center"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: none;
+                    }
+                  </style>
+                </defs>
+                <rect class="cls-1" width="512" height="512"></rect>
+                <path
+                  d="M445.56,422.93l-85.05-85.05c53.72-65.14,50.14-162-10.77-222.89C285,50.26,179.71,50.26,115,115s-64.73,170,0,234.75c60.9,60.91,157.75,64.49,222.89,10.77l85.05,85.05ZM137.61,327.12c-52.24-52.25-52.24-137.26,0-189.51s137.26-52.24,189.51,0,52.24,137.26,0,189.51S189.86,379.36,137.61,327.12Z"
+                  transform="translate(0.5 1)"
+                ></path>
+              </svg>
+            </div>
             <div>
-              <img src="/images/i1.svg" height="200" width="300" alt="" />
-            </div>
-            <div class="">
-              <ul class="flex cursor-pointer gap-x-6">
-                <li><a class="font-semibold text-xl" href="">STUDY</a></li>
-                <li><a class="font-semibold text-xl" href="">RESEARCH</a></li>
-                <li><a class="font-semibold text-xl" href="">INNOVATIVE</a></li>
-                <li><a class="font-semibold text-xl" href="">LIFE</a></li>
-                <li><a class="font-semibold text-xl" href="">EXPLORE</a></li>
-              </ul>
-            </div>
-            <div class="flex flex-col">
-              <div class="flex items-center gap-5">
-                <h1 class="pr-3">Search</h1>
-                <svg
-                  class="w-[8%] flex items-center justify-center"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill: none;
-                      }
-                    </style>
-                  </defs>
-                  <rect class="cls-1" width="512" height="512"></rect>
-                  <path
-                    d="M445.56,422.93l-85.05-85.05c53.72-65.14,50.14-162-10.77-222.89C285,50.26,179.71,50.26,115,115s-64.73,170,0,234.75c60.9,60.91,157.75,64.49,222.89,10.77l85.05,85.05ZM137.61,327.12c-52.24-52.25-52.24-137.26,0-189.51s137.26-52.24,189.51,0,52.24,137.26,0,189.51S189.86,379.36,137.61,327.12Z"
-                    transform="translate(0.5 1)"
-                  ></path>
-                </svg>
-              </div>
-              <div>
-                <hr class="border-1 border-black w-[35%]" />
-              </div>
+              <hr class="border-1 border-black w-[35%]" />
             </div>
           </div>
+        </div>
       </div>
     </nav>
     <main>
-      
-    <div  class="bg-[url('/images/slide-estudantes-internacionais-2025-2026.format-jpeg.jpeg')] h-[100vh] w-full bg-center bg-auto bg-local">
-        <div>
-            <h1>A univrsity committed to <br>
-                gender equality</h1>
-                <p>There are over 700 vacancies for 54 undergraduate and integrated master's courses at U.Porto. Applications (1st phase) until 7th February!</p>
+      <div
+        class="bg-[url('/images/slide-estudantes-internacionais-2025-2026.format-jpeg.jpeg')] h-[100vh] w-full bg-center bg-auto bg-local"
+      >
+     
+        <div
+          class="bg-gray-600 w-[30%] absolute p-5 flex flex-col gap-y-6 mt-64 mx-48 transpare"
+        >
+          <h1 class="text-2xl font-bold text-white">
+            A university committed to <br />
+            gender equality
+          </h1>
+          <p class="text-white">
+            There are over 700 vacancies for 54 undergraduate <br />
+            and integrated master's courses at U.Porto. <br />
+            Applications (1st phase) until 7th February!
+          </p>
+          <button class="bg-orange-300 p-1 text-black font-semibold w-32">
+            see more
+          </button>
         </div>
+        <div class=" flex absolute">
+            <i class="fa-solid fa-angle-left fa-2xl"></i>
+            <i class="fa-solid fa-angle-right fa-2xl"></i>
+          </div>
+      </div>
 
-    </div>
-</main>
+      
+    </main>
   </body>
 </html>
