@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="output.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -11,183 +11,267 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <title>Document</title>
   </head>
   <body>
-    <div
-      class="flex bg-gray-800 justify-between items-center gap-x-[5rem] text-white"
-    >
-      <div class="p-3 px-7">
-        <select class="bg-gray-800 text-white" name="" id="">
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-          <option value="">About the university</option>
-        </select>
-        <select class="bg-gray-800 text-white" name="" id="">
-          <option value="">Faculties</option>
-          <option value="">Faculties</option>
-          <option value="">Faculties</option>
-          <option value="">Faculties</option>
-          <option value="">Faculties</option>
-        </select>
-      </div>
-      <div>
-        <div class="mr-44 flex justify-center items-center gap-x-3">
-          <a class="text-white" href="">
-            <i class="fa-white" class="fa-solid fa-money-bill"></i
-          ></a>
-          <i class="fa-white" class="fa-solid fa-money-bill"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <p class="text-gray-500 font-semibold">PT</p>
-          <p class="font-semibold">EN</p>
+    <header>
+      <div class="bg-gray-900">
+        <div class="container mx-auto flex justify-between text-white p-3">
+          <div>
+            <select class="bg-gray-900" id="">
+              <option value="">Select university</option>
+              <option value="">Select university</option>
+              <option value="">Select university</option>
+              <option value="">Select university</option>
+              <option value="">Select university</option>
+            </select>
+
+            <select class="bg-gray-900" name="" id="">
+              <option value="">Faculties</option>
+              <option value="">Faculties</option>
+              <option value="">Faculties</option>
+              <option value="">Faculties</option>
+            </select>
+          </div>
+          <div class="flex justify-center items-center space-x-3">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-building-columns"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <h1>PT</h1>
+            <h1>EN</h1>
+          </div>
         </div>
       </div>
-    </div>
-    <nav class="sticky top-0 z-10">
-      <div>
-        <div class="flex justify-center items-center gap-x-40 bg-gray-300 p-8">
+      <nav class="bg-gray-300 sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between p-5">
           <div>
-            <img src="/images/i1.svg" height="200" width="300" alt="" />
+            <img class="w-3/4" src="/images/i1.svg" alt="" />
           </div>
-          <div class="">
-            <ul class="flex cursor-pointer gap-x-6">
-              <li><a class="font-semibold text-xl" href="">STUDY</a></li>
-              <li><a class="font-semibold text-xl" href="">RESEARCH</a></li>
-              <li><a class="font-semibold text-xl" href="">INNOVATIVE</a></li>
-              <li><a class="font-semibold text-xl" href="">LIFE</a></li>
-              <li><a class="font-semibold text-xl" href="">EXPLORE</a></li>
+          <div>
+            <ul class="text-black flex space-x-6 items-center">
+              <li><a href="STUDY">STUDY</a></li>
+              <li><a href="RESEARCH">RESEARCH</a></li>
+              <li><a href="INNOVATE">INNOVATE</a></li>
+              <li><a href="LIVE">LIVE</a></li>
+              <li><a href="EXPLORE">EXPLORE</a></li>
+              <div class="text-black">
+                <div class="flex justify-center items-center space-x-2">
+                  <h1>Search</h1>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="text-black">
+                  <hr class="border-1 border-black" />
+                </div>
+              </div>
             </ul>
           </div>
-          <div class="flex flex-col">
-            <div class="flex items-center gap-5">
-              <h1 class="pr-3">Search</h1>
-              <svg
-                class="w-[8%] flex items-center justify-center"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-              >
-                <defs>
-                  <style>
-                    .cls-1 {
-                      fill: none;
-                    }
-                  </style>
-                </defs>
-                <rect class="cls-1" width="512" height="512"></rect>
-                <path
-                  d="M445.56,422.93l-85.05-85.05c53.72-65.14,50.14-162-10.77-222.89C285,50.26,179.71,50.26,115,115s-64.73,170,0,234.75c60.9,60.91,157.75,64.49,222.89,10.77l85.05,85.05ZM137.61,327.12c-52.24-52.25-52.24-137.26,0-189.51s137.26-52.24,189.51,0,52.24,137.26,0,189.51S189.86,379.36,137.61,327.12Z"
-                  transform="translate(0.5 1)"
-                ></path>
-              </svg>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="bg-[url('/images/estudantes-feup-2024-igualdade_05_destaque.format-jpeg.jpeg')] h-[100vh] w-full"
+      >
+        <div
+          class="container mx-auto absolute bg-gray-700 rounded-lg w-fit mx-36 my-56 text-gray-100 p-5"
+        >
+          <h2 class="font-bold text-2xl mb-3">
+            There's a new ‘’showcase‘’ for <br />U.Porto's Lifelong Learning!
+          </h2>
+          <p class="mb-4">
+            The "UP Igualdade" - Plan for Gender Equality <br />
+            2025-2028 includes 72 measures to promote gender equality <br />
+            and inclusion at U.Porto.
+          </p>
+
+          <button class="rounded-lg bg-orange-500 px-10 py-3">see more</button>
+        </div>
+        <!-- <div class="absolute flex items-center m-36 justify-center">
+          <i class="fa-light fa-chevron-left  bg-orange-500 "></i>
+          <i class="fa-solid fa-chevron-right  bg-orange-500 "></i>
+        </div> -->
+      </div>
+
+      <div>
+        <div class="container mx-auto pt-6 mb-20">
+          <h1 class="text-4xl mb-7 flex ml-36 text-orange-500">Study</h1>
+          <div class="flex justify-evenly items-center mb-10">
+            <h1 class="font-bold text-2xl">Your future is here</h1>
+            <p>
+              Gathering the most complete offer of training programmes in
+              Portugal, the 14 faculties <br />
+              of the U.Porto offer unique conditions to those who want to build
+              an academic path of <br />
+              excellence and properly valued by the labour market.
+            </p>
+          </div>
+        </div>
+        <hr class="w-[70%] flex justify-center items-center ml-60" />
+      </div>
+
+      <div class="container mx-auto mt-12 mb-12">
+        <div>
+          <h1 class="font-bold text-2xl mb-8">
+            Which course are you looking for?
+          </h1>
+          <div class="">
+            <div class="flex flex-col">
+              <select class="border border-black w-[40%] p-2" name="" id="">
+                <option value="">All</option>
+              </select>
+              <br />
+              <input
+                class="border border-black w-[40%] p-2"
+                type="text"
+                name=""
+                id=""
+                placeholder="Please Enter course work ..."
+              />
+              <br />
+              <button class="w-[40%] p-2 bg-orange-500 rounded-lg">
+                Search
+              </button>
             </div>
-            <div>
-              <hr class="border-1 border-black w-[35%]" />
+            <div class="absolute ml-[50%] -mt-[14%]">
+              <h1 class="semi-bold text-4xl mb-5">Courses from A to Z:</h1>
+              <p class="underline text-2xl text-gray-700">
+                Bachelor's and Integrated Master’s Degrees <br />
+                Master’s Degrees <br />
+                Doctorates
+              </p>
+              <br />
             </div>
           </div>
         </div>
       </div>
-    </nav>
-    <main>
-      <div
-        class="bg-[url('/images/estudantes-feup-2024-igualdade_05_destaque.format-jpeg.jpeg')] h-[100vh] w-full bg-center bg-auto bg-local"
-      >
-        <div
-          class="bg-gray-600 w-[30%] absolute p-5 flex flex-col gap-y-6 mt-64 mx-48 transpare"
-        >
-          <h1 class="text-2xl font-bold text-white">
-            A university committed to <br />
-            gender equality
-          </h1>
-          <p class="text-white">
-            There are over 700 vacancies for 54 undergraduate <br />
-            and integrated master's courses at U.Porto. <br />
-            Applications (1st phase) until 7th February!
-          </p>
-          <button class="bg-orange-300 p-1 text-black font-semibold w-36">
-            see more
-          </button>
-        </div>
-        <div class="flex text-white justify-center items-center">
-          <i class="m-4" class="fa-solid fa-angle-left fa-2xl"></i>
-          <i class="m-4" class="fa-solid fa-angle-right fa-2xl"></i>
-        </div>
-      </div>
 
-      <div class="flex flex-col p-20">
-        <h1 class="text-5xl ml-20 text-orange-200">Study</h1>
-        <div class="flex justify-around m-6">
-          <h1 class="font-bold text-4xl">Your Future is here!</h1>
-          <p class="text-gray-600 mt-3">
-            Gathering the most complete offer of training programmes in
-            Portugal, <br />
-            the 14 faculties of the U.Porto offer unique conditions to those who
-            want <br />
-            to build an academic path of excellence and properly valued by the
-            labour market. <br />
-          </p>
-        </div>
-      </div>
-      <hr class="flex items-start justify-center w-[70%] ml-[15%]" />
-
-      <div class="m-10">
-        <h1 class="font-bold text-2xl">Which courses are you loooking for ?</h1>
-        <div>
-          <form class>
-            <div class="border border-black w-[50%]">
-              <select>
-                <option>All</option>
-
-                <option>ALL</option>
-                <option>All</option>
-              </select>
+      <div class="bg-gray-200">
+        <div class="container mx-auto">
+          <div>
+            <div class="mb-20 flex justify-between items-center">
+              <h1 class="mt-5 text-orange-500 text-5xl">News</h1>
+              <div class="mt-5">
+                <h1 class="font-bold text-orange-500">All News</h1>
+              </div>
             </div>
 
-            <div class="border border-black w-[50%]">
-              <input placeholder="Please enter course keywords..." />
+            <div class="flex gap-x-12 mb-20">
+              <div class="bg-white rounded-lg mb-10 truncate">
+                <p class="p-5 text-orange-500">Campus e Comunidade</p>
+                <h3 class="p-5 font-bold text-gray-600">
+                  José Manuel Varejão é o novo Pró <br />
+                  -Reitor para a Comunicação <br />
+                  e Alumni
+                </h3>
+                <p class="p-5 text-gray-600">10 january 2025</p>
+                <img src="/images/jose-varejao-pro-reitor-uporto.jpeg" alt="" />
+              </div>
+              <div class="bg-white rounded-lg mb-10 truncate">
+                <p class="p-5 text-orange-500">Campus e Comunidade</p>
+                <h3 class="p-5 font-bold text-gray-600">
+                  José Manuel Varejão é o novo Pró <br />
+                  -Reitor para a Comunicação <br />
+                  e Alumni
+                </h3>
+                <p class="p-5 text-gray-600">10 january 2025</p>
+                <img src="/images/jose-varejao-pro-reitor-uporto.jpeg" alt="" />
+              </div>
+              <div class="bg-white rounded-lg mb-10 truncate">
+                <p class="p-5 text-orange-500">Campus e Comunidade</p>
+                <h3 class="p-5 font-bold text-gray-600">
+                  José Manuel Varejão é o novo Pró <br />
+                  -Reitor para a Comunicação <br />
+                  e Alumni
+                </h3>
+                <p class="p-5 text-gray-600">10 january 2025</p>
+                <img src="/images/jose-varejao-pro-reitor-uporto.jpeg" alt="" />
+              </div>
             </div>
-            <button
-              class="border px-[23%] bg-orange-400 py-2 font-bold text-white"
-            >
-              Submit
-            </button>
-          </form>
+          </div>
         </div>
       </div>
+      <!-- 
+      <div>
+        <div class="container mx-auto">
 
-      <div class="bg-gray-400">
-        <div class="flex justify-around gap-[62%] ">
-          <h1 class="text-2xl">News</h1>
-          <h1>All news</h1>
         </div>
-        <div class="flex">
-          <div
-            class="border bg-white p-10 flex flex-col gap-32 m-20 justify-center items-center"
-          >
+      </div> -->
+
+      <div class="mb-20">
+        <div class="container mx-auto">
+          <h1 class="text-orange-500 text-6xl mb-10">Research</h1>
+          <div class="flex space-x-20">
             <div>
-              <h1 class="text-orange-400 mb-10">Campus e Comunidade</h1>
-              <h2 class="font-bold text-2xl">
-                José Manuel Varejão é o novo <br />
-                Pró-Reitor para a Comunicação <br />
-                Alumni
-              </h2>
+              <h1 class="text-4xl font-bold mb-5">Research University</h1>
+              <p class="text-gray-600 text-xl mb-10">
+                <span class="text-orange-500">With 48 research units</span> and
+                a highly qualified scientific community, the University of Porto
+                is
+                <span class="font-semibold">
+                  one of the largest producers of science in Portugal</span
+                >, contributing to almost
+                <span class="text-orange-500"> 25% of all national</span>
+                scientific output.
+              </p>
+
+              <p class="text-gray-600 text-xl">
+                The excellence of our scientific ecosystem is particularly
+                evident in the
+                <span class="text-orange-500"
+                  >leading position the University occupies in the main intern
+                  ational rankings of Higher Education</span
+                >.
+              </p>
             </div>
             <div>
-              <h3 class="mb-5">10 January 2025</h3>
               <img
-                src="/images/jose-varejao-pro-reitor-uporto.jpeg"
+                src="/images/investigar-home_destaque.format-jpeg.jpeg"
                 alt=""
               />
             </div>
           </div>
+        </div>
+      </div>
 
+      <div class="bg-[#a18a4d] text-white p-10 text-3xl">
+        <div
+          class="container mx-auto flex flex-col text-white justify-center items-center"
+        >
+          <svg
+            class="text-white mb-7"
+            viewBox="0 0 512 512"
+            height="4em"
+            role="img"
+            aria-hidden="true"
+            fill="white"
+          >
+            <path
+              d="M386.37156,119.61552l0,0L377.03,100.32491l-.00063.0006L341.68059,27.32932a16.85833,16.85833,0,0,0-22.495-7.81585l-13.48231,6.52888a16.8578,16.8578,0,0,0-7.817,22.49459l2.28919,4.72723L259.74237,95.313l-50.25491,52.26228a6.372,6.372,0,0,0,9.18595,8.83334l50.192-52.19775L306.097,65.49212l82.69114,170.75762L416.52008,293.517,226.95558,311.955,174.08563,202.7771l23.92894-24.88355a6.372,6.372,0,0,0-9.1859-8.83337l-26.216,27.2635-83.54683,40.458a14.97156,14.97156,0,0,0-7.02331,19.79855L47.108,268.65487a16.65948,16.65948,0,0,0-7.72437,22.22985l34.92177,72.11444a16.65962,16.65962,0,0,0,22.2302,7.72508l24.93452-12.07467a14.97216,14.97216,0,0,0,19.88772,6.76682l4.7436-2.29711,48.34754,99.839a37.94762,37.94762,0,1,0,68.30751-33.07825l-48.34754-99.839,10.49647-5.083,197.53514-19.21315,1.92907,3.98358a16.85779,16.85779,0,0,0,22.495,7.81587l13.48231-6.52887a16.85833,16.85833,0,0,0,7.817-22.49457l-9.65871-19.94549a6.37152,6.37152,0,0,0-11.469,5.55394l9.6587,19.94549a4.10078,4.10078,0,0,1-1.90187,5.47158l-13.48231,6.52888a4.10075,4.10075,0,0,1-5.47192-1.90079l-89.6986-185.23011,0,0L309.35535,42.983a4.1008,4.1008,0,0,1,1.90187-5.47158l13.48231-6.52887a4.10079,4.10079,0,0,1,5.472,1.90076l36.67982,75.74485,1.15016,2.37511L434.07728,247.369a6.37155,6.37155,0,0,0,11.46909-5.554l-21.71265-44.83721a43.29593,43.29593,0,0,0,14.53933-54.54943l-.191-.39453A43.295,43.295,0,0,0,386.37156,119.61552ZM115.90691,347.185,90.98158,359.25517a3.90263,3.90263,0,0,1-5.20712-1.81L50.85269,285.33071a3.903,3.903,0,0,1,1.8092-5.20678l24.92533-12.07021ZM251.2885,435.4344a25.20452,25.20452,0,1,1-45.36933,21.97032L157.6816,357.7928l45.36933-21.97032ZM214.64379,315.76867,135.80386,353.9473a2.22,2.22,0,0,1-2.962-1.0292L83.59049,251.21268a2.21981,2.21981,0,0,1,1.02963-2.96124l78.83993-38.17863ZM418.19424,185.33214l-26.18393-54.07055a30.54171,30.54171,0,0,1,34.70219,16.32732l.19069.39378.00075-.00036A30.54256,30.54256,0,0,1,418.19424,185.33214Z"
+              transform="translate(-37.72115 -17.83114)"
+            ></path>
+          </svg>
+
+          <h1 class="font-bold mb-7 text-4xl">U.Porto in Figures</h1>
+          <h1 class="font-bold mb-7 text-3xl">2022/2023</h1>
+        </div>
+        <hr class="my-6" />
+        <div class="flex justify-evenly text-3xl mb-7">
+          <div>
+            <h1>+300</h1>
+            <h1>Courses</h1>
+          </div>
+          <div>
+            <h1>+35.000</h1>
+            <h1>Students enrolled</h1>
+          </div>
+          <div>
+            <h1>40</h1>
+            <h1>Research Units</h1>
+          </div>
         </div>
       </div>
     </main>
