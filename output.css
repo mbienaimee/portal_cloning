@@ -632,6 +632,10 @@ video {
   margin: 9rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-48 {
   margin-left: 12rem;
   margin-right: 12rem;
@@ -852,6 +856,42 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-28 {
+  margin-right: 7rem;
+}
+
+.mr-36 {
+  margin-right: 9rem;
+}
+
+.mr-48 {
+  margin-right: 12rem;
+}
+
+.mr-80 {
+  margin-right: 20rem;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -874,6 +914,10 @@ video {
 
 .h-2\/3 {
   height: 66.666667%;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-36 {
@@ -971,6 +1015,22 @@ video {
 
 .w-1\/5 {
   width: 20%;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .transform {
@@ -1107,6 +1167,18 @@ video {
   margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1230,6 +1302,14 @@ video {
   background-position: center;
 }
 
+.fill-white {
+  fill: #fff;
+}
+
+.fill-\[\#a18a4d\] {
+  fill: #a18a4d;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1321,6 +1401,14 @@ video {
   padding-top: 1.5rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1404,6 +1492,36 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#a18a4d\] {
+  --tw-text-opacity: 1;
+  color: rgb(161 138 77 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
